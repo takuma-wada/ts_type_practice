@@ -133,7 +133,6 @@ console.log('----- 型キャスト -----');
 // const userInputElement= <HTMLInputElement>document.getElementById('user-input')!;
 // 前に<>をつけるパターンはreactコンポーネント等でも使用する為衝突する
 const userInputElement = document.getElementById('user-input')! as HTMLInputElement;
-
 userInputElement.value = 'こんにちは';
 
 
